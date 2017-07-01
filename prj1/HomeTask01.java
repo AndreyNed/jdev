@@ -4,7 +4,9 @@ public class HomeTask01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello");
+		final String HELLO = "Hello!!!";
+		
+		System.out.println(HELLO);
 	}
 
 }
