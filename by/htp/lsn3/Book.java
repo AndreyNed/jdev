@@ -5,10 +5,10 @@ public class Book {
 	private int pageCount;
 	private int publishYear;
 	private String title;
-	private String author;
+	private Author author;
 	
-	public Book ( int pageCount, int publishYear, String title, String author ) {
-		System.out.println("Book constructor");
+	public Book ( int pageCount, int publishYear, String title, Author author ) {
+		//System.out.println("Book constructor");
 		this.pageCount = pageCount;
 		this.publishYear = publishYear;
 		this.title = title;
@@ -23,6 +23,28 @@ public class Book {
 		return pageCount;
 	}
 	
+	public void setPublishYear( int publishYear ){
+		this.publishYear = publishYear;
+	}
 	
+	public int getPublishYear(){
+		return publishYear;
+	}
+	
+	public void setTitle( String title ) {
+		this.title = title;
+	}
+	
+	public String getTitle(){
+		return title;
+	}
+	
+	public void setAuthor( Author author ){
+		this.author = author;
+	}
+	
+	public Author getAuthor(){
+		return author;
+	}
 
 }
